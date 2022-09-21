@@ -6,7 +6,7 @@ print(60/3)
 import math
 print(math.sqrt(144))
 x=2+5*14
-x=66-11
-print(x)
-x=(16-8)**2
-print(x)
+y=66-11
+print(y)
+z=(16-8)**2
+print(z)
