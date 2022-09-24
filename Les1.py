@@ -1,10 +1,8 @@
-n = "Tom"
-age = 33
-un= "Name:" + n + " Age:" + str(age)
-print(un)
-str1="?"*3
-print(str1)
-print("hello "*3)
-month="September"
-day=21
-print(month +", " + str(day))
+str1="saturday"
+print(str1[::]) # весь список
+print(str1[::2]) # нечетные по порядку
+print(str1[1::2]) # четные по порядку
+print(str1[::-1]) # все элементы в обратном порядке
+print(str1[5::-1]) # все элементы, начиная с шестого
+print(str1[:5:]) #все элементы, не доходя до шестого
+print(str1[-2:2:-1]) #все элементы от предпоследнего до третьего в обратном порядке
