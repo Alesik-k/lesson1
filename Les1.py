@@ -1,8 +1,15 @@
-str1="saturday"
-print(str1[::]) # весь список
-print(str1[::2]) # нечетные по порядку
-print(str1[1::2]) # четные по порядку
-print(str1[::-1]) # все элементы в обратном порядке
-print(str1[5::-1]) # все элементы, начиная с шестого
-print(str1[:5:]) #все элементы, не доходя до шестого
-print(str1[-2:2:-1]) #все элементы от предпоследнего до третьего в обратном порядке
+age=18
+if age >= 18:
+    print("Больше 17")
+    if age >21:
+        print("More than 21")
+    else:
+        print("from 18 till 21")
+
+age1 = 18
+if age1 >= 18:
+    print("Больше 17")
+if age1 > 21:
+    print("More than 21")
+else:
+    print("from 18 till 21")
