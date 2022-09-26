@@ -1,15 +1,18 @@
-age=18
-if age >= 18:
-    print("Больше 17")
-    if age >21:
-        print("More than 21")
-    else:
-        print("from 18 till 21")
+a=5
+b=6
+c=7
+triangle=(a+b)>c #Сумма длин двух любых сторон треугольника больше длины оставшейся стороны
+print(triangle)
 
-age1 = 18
-if age1 >= 18:
-    print("Больше 17")
-if age1 > 21:
-    print("More than 21")
+n=2
+age=str(n)
+if n>=11 and n<=19:
+    print("Мне",n,"лет")
+elif int(age[-1::])==0:
+    print("Мне",n,"лет")
+elif int(age[-1::])>=5 and int(age[-1::])<=9:
+    print("Мне",n,"лет")
+elif int(age[-1::])==1:
+    print("Мне",n,"год")
 else:
-    print("from 18 till 21")
+    print("Мне", n, "года")
