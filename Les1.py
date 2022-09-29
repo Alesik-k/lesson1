@@ -1,15 +1,17 @@
 try:
-    yearToday=2022
-    yearBD=int(input("BD year: "))
-    monthToday=9
-    monthBD=int(input("BD month: "))
-    dayToday=30
-    dayBD=int(input("BD day: "))
-    if monthBD<=monthToday:
-        print("Full years as of today is :",yearToday-yearBD)
-    elif monthBD==monthToday and dayBD<=dayToday:
-        print("Full years as of today is :",yearToday-yearBD)
+    year1=int(input("BD year 1 : "))
+    year2=int(input("BD year 2 : "))
+    month1=int(input("BD month 1 : "))
+    month2=int(input("BD month 2 : "))
+    day1=int(input("BD day 1 : "))
+    day2=int(input("BD day 2 : "))
+    if year1<year2:
+        print("Person 1 is older")
+    elif year1==year2 and month1<month2:
+        print("Person 1 is older")
+    elif year1 == year2 and month1==month2 and day1<day2:
+        print("Person 1 is older")
     else:
-        print("Full years as of today is :",yearToday-yearBD-1)
+        print("Person 2 is older")
 except ValueError:
     print("Input only numbers!")
