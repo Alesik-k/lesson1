@@ -1,16 +1,15 @@
 try:
-    a = int(input("Ответ a: "))
-    print(a + "29.09.2022")
-except TypeError:
-    print("Разные типы складывать нельзя!")
-finally:
-    print("Ответ принят!")
-
-try:
-    b = int(input("Введите ваш вариант ответа b "))
-    import math
-    print(math.sqrt(b))
+    yearToday=2022
+    yearBD=int(input("BD year: "))
+    monthToday=9
+    monthBD=int(input("BD month: "))
+    dayToday=30
+    dayBD=int(input("BD day: "))
+    if monthBD<=monthToday:
+        print("Full years as of today is :",yearToday-yearBD)
+    elif monthBD==monthToday and dayBD<=dayToday:
+        print("Full years as of today is :",yearToday-yearBD)
+    else:
+        print("Full years as of today is :",yearToday-yearBD-1)
 except ValueError:
-    print("Только положительные числа!")
-finally:
-    print("Ответ принят!")
+    print("Input only numbers!")
