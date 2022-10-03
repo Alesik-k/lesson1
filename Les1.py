@@ -1,5 +1,5 @@
-number=6
-factorial=1
-for i in range(1,number+1):
-    factorial*=i
-print("Факториал числа", number, "равен",factorial)
+a=int(input("Enter your first natural number: "))
+b=int(input("Enter your second natural number: "))
+c=int(input("Enter the step: "))
+for i in range(a,b+1,c):
+    print(i, end=' ')
