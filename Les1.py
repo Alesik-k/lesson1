@@ -1,4 +1,5 @@
-for i in range(1,10):
-    for j in range(1,11):
-        print(i*j,end="\t")
-    print("\n")
+number=6
+factorial=1
+for i in range(1,number+1):
+    factorial*=i
+print("Факториал числа", number, "равен",factorial)
