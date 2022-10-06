@@ -1,5 +1,11 @@
-a=int(input("Enter your first natural number: "))
-b=int(input("Enter your second natural number: "))
-c=int(input("Enter the step: "))
-for i in range(a,b+1,c):
-    print(i, end=' ')
+#Найдите его наибольшую цифру в числе
+n=input("Enter your number 1: ")
+a=0
+for i in n:
+    if int(i)>int(a):
+        a=i
+print(a)
+
+#Сформируйте из введённого числа обратное по порядку входящих в него цифр и выведите на экран.
+y=input("Enter your number 2: ")
+print(y[::-1])
